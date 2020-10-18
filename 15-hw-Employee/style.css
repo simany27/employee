@@ -1,0 +1,22 @@
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs *{
+    margin: 1rem;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons *{
+    margin: 1rem;
+}
+
+h2{
+    margin-left: 1rem;
+}
+h1{
+    text-align: center;
+}

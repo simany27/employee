@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee</title>
+    <script defer src="company.js"></script>
+    <script defer src="employee.js"></script>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1>Human Resources</h1>
+<div class="inputs">
+    <input id='id' type='text' autofocus>
+    <input id='firstName' type='text'>
+    <input id='lastName' type='text'>
+    <input id='age' type='text'>
+    <input id='salary' type='text'>
+</div>
+<div class="buttons">
+    <button id="add">Add Employee</button>
+    <button id="show">Show Company</button>
+    <button id="stat">Get Statistics</button>
+</div>
+<div class="info">
+    <div class="empList">
+        <h2>Employees List:</h2>
+        <ul id="ulEmp"></ul>
+    </div>
+    <div class="statistics">
+        <h2>Statistics:</h2>
+        <ul id="ulStat"></ul>
+    </div>
+</div>
+</body>
+</html>
